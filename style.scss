@@ -5,6 +5,19 @@ $secondaryColor: hsl(212, 21%, 14%);
 $tertiaryColor: hsl(228, 12%, 48%);
 $whiteColor: hsl(0, 0%, 100%);
 
+$border: 12px;
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin imageSize {
+    height: 40%;
+    width: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,5 +26,22 @@ $whiteColor: hsl(0, 0%, 100%);
 
 body{
     background-color: $primaryBgColor;
+    @include flexCenter();
+    height: 100vh;
 }
 
+.card{
+    width: 350px;
+    height: 600px;
+    background-color: $whiteColor;
+    border-radius: $border;
+    @include flexCenter();
+}
+
+.card--image{
+    @include imageSize();
+    background-image: url('images/image-product-mobile.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    border-top: $border;
+}

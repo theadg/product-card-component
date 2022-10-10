@@ -6,4 +6,27 @@
 
 body {
   background-color: hsl(30deg, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 600px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--image {
+  height: 40%;
+  width: 100%;
+  background-image: url("images/image-product-mobile.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  border-top: 12px;
 }/*# sourceMappingURL=style.css.map */
