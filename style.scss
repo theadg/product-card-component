@@ -1,4 +1,5 @@
 $primaryColor: hsl(158, 36%, 37%);
+$primaryColorHover: hsl(157, 35%, 22%);
 $primaryBgColor:  hsl(30, 38%, 92%);
 
 $secondaryColor: hsl(212, 21%, 14%); 
@@ -121,11 +122,34 @@ body{
 
         @include flexCenter();
         gap: 1em;
+
+        &:hover{
+            cursor: pointer;
+            background-color: $primaryColorHover;
+        }
     }
     
 }
 
 
-@media screen and (max-width: 750px) {
-    
+@media screen and (min-width: 750px) {
+    .card{
+        width: 600px;
+        height: 450px;
+        flex-direction: row;
+
+        .card--image{
+            height: 100%;
+            background-image: url('images/image-product-desktop.jpg');
+            border-top-left-radius: $border;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: $border;
+        }
+
+        .card--text{
+            padding: 2rem;
+            width: 90%;
+            justify-content: center;
+        }
+    }
 }

@@ -101,4 +101,28 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+.card--text .card--button:hover {
+  cursor: pointer;
+  background-color: hsl(157deg, 35%, 22%);
+}
+
+@media screen and (min-width: 750px) {
+  .card {
+    width: 600px;
+    height: 450px;
+    flex-direction: row;
+  }
+  .card .card--image {
+    height: 100%;
+    background-image: url("images/image-product-desktop.jpg");
+    border-top-left-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+  }
+  .card .card--text {
+    padding: 2rem;
+    width: 90%;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
