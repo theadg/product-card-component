@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/theadg/product-card-component)
-- Live Site URL: [Add live site URL here](https://theadg.github.io/product-card-component/)
+- Solution URL: [https://github.com/theadg/product-card-component]
+- Live Site URL: [https://theadg.github.io/product-card-component/]
 
 ## My process
 
@@ -51,5 +51,4 @@ I will be focusing more on using Semantic HTML tags and properly naming CSS Clas
 
 ## Author
 
-- Website - [Andrew De Guzman](will be putting my portfolio here soon)
 - Frontend Mentor - [@theadg](https://www.frontendmentor.io/profile/theadg)
