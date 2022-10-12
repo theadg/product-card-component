@@ -24,9 +24,8 @@ body {
 }
 
 .card--image {
-  height: 80%;
+  height: 100%;
   width: 100%;
-  background-image: url("images/image-product-mobile.jpg");
   background-position: center;
   background-size: 100% 100%;
   border-top-left-radius: 12px;
@@ -86,7 +85,6 @@ body {
 .card--text .card--text-footer-price .card--text-footer-price-supp {
   color: hsl(228deg, 12%, 48%);
   font-size: 0.8em;
-  text-decoration: line-through;
 }
 .card--text .card--button {
   font-family: "Montserrat", san-serif;
@@ -114,8 +112,6 @@ body {
     flex-direction: row;
   }
   .card .card--image {
-    height: 100%;
-    background-image: url("images/image-product-desktop.jpg");
     border-top-left-radius: 12px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 12px;

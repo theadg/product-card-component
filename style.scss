@@ -24,7 +24,7 @@ $secondaryFont: 'Fraunces', serif;
 }
 
 @mixin imageSize {
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
@@ -52,7 +52,6 @@ body{
 
 .card--image{
     @include imageSize();
-    background-image: url('images/image-product-mobile.jpg');
     background-position: center;
     background-size: 100% 100%;
     border-top-left-radius: $border;
@@ -107,7 +106,6 @@ body{
         .card--text-footer-price-supp{
             color: $tertiaryColor;
             font-size: 0.8em;
-            text-decoration: line-through;
         }
     }
     .card--button{
@@ -139,8 +137,6 @@ body{
         flex-direction: row;
 
         .card--image{
-            height: 100%;
-            background-image: url('images/image-product-desktop.jpg');
             border-top-left-radius: $border;
             border-top-right-radius: 0;
             border-bottom-left-radius: $border;
